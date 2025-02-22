@@ -1,0 +1,167 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+
+/*Banner Styles*/
+.banner {
+    background-color: #f8f8f0;
+}
+
+.banner h2{
+    color:darkolivegreen;
+    font-family:'Courier New', Courier, monospace;
+    text-align:center;
+    letter-spacing:20px;
+    margin-top:10px;
+    font-size:40px;
+}
+
+.banner img{ 
+    width:200px;
+    height:200px;
+    box-align:center;
+    display:block;
+    margin:auto;
+    margin-top:10px;
+    margin-bottom:0px;
+}
+
+.banner p{
+    color:darkolivegreen;
+    font-family:'Courier New', Courier, monospace;
+    font-size:25px;
+    font-weight:lighter;
+    text-align:center;
+    text-decoration: none;
+    transition:color 0.3s;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+.banner nav{
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align:center;
+}
+
+.banner li{
+    display:inline;
+    margin:15px;
+}
+
+.banner a{
+    color:darkolivegreen;
+    font-family:'Courier New', Courier, monospace;
+    font-size:25px;
+    font-weight:lighter;
+    text-align:center;
+    text-decoration: none;
+    transition:color 0.3s;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+.banner a:hover{
+    color:gold; /*gold color on hover */
+}
+
+/*Body Styles*/
+.body{
+   background-color:darkolivegreen;
+   padding:20px;
+}
+
+.body h1{
+    background-color:darkolivegreen;
+    font-family:'Courier New', Courier, monospace;
+    font-size:25px;
+    font-weight:bold;
+    color:#f8f8f0;
+    text-align:center;
+}
+
+.body h2{
+    background-color:darkolivegreen;
+    font-family:'Courier New', Courier, monospace;
+    font-size:25px;
+    font-weight:bold;
+    color:#f8f8f0;
+    text-align:center;
+    padding-top:10px;
+}   
+
+.body p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    color:#f8f8f0;
+    text-align:center;
+    padding-top:10px;
+}
+
+.container{
+    background-color:darkolivegreen;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+}
+
+.text{
+    flex:1;
+    max-width:60%;
+}
+
+.image img{
+    max-width:100%;
+    height:auto;
+    max-height:300px;
+}
+
+.body .pdf-container{
+    text-align: center;  
+}
+
+/*Footer Styles*/
+.footer{
+    background-color:#f8f8f0;
+    padding:20px;
+}
+
+h3{
+    font-family:'Courier New', Courier, monospace;
+    background-color:#f8f8f0;
+    font-size:20px;
+    font-weight:bold;
+    color:darkolivegreen;
+    text-align:left;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:20px;
+}
+
+form {
+    background-color: #f8f8f0;
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    font-size: 14px;
+    color:darkolivegreen;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form input[type="text"], form input[type="email"], form textarea{
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

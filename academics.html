@@ -5,62 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Madison's INF 6420 Project</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-
 <header>
-    <img src="Images/Madison Goulet Logo.png" alt= "Madison Goulet logo">
-    <h2> Madison Goulet</h2>
-    <a href="https://www.linkedin.com/in/madisongoulet01" target="_blank">LinkedIn</a>
-    <a href="mailto:megoulet@wayne.com">megoulet@wayne.edu</a>
-    <hr />
-    
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="academics.html">Academics</a></li>
-        <li><a href="professional.html">Professional Profile</a></li>
-    </ul>
-</nav>
+    <div class="banner">
 
+        <img src="Images/Madison Goulet Logo.png" alt="Madison Gouelt logo">
+        
+            <h2> Madison Goulet</h2>
+       <p><a href="https://www.linkedin.com/in/madisongoulet01" target="_blank">LinkedIn</a>
+        <a href="mailto:megoulet@wayne.com">megoulet@wayne.edu</a></p>
+        <hr />
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="professional.html">Professional Profile</a></li>
+        </ul>
+    </nav>
     <hr />
+    </div>
 </header>
 
 <main>
+<div class="body">
 <h1>Academics</h1>
     <p>In this section, you will find various academic projects. These projects display the various academic abilities that will aid me in the workplace. Through these projects, I display my technical capabilities in Microsoft Word, PowerPoint, and Excel as well as the abilities to analyze, interpret, and synthesize.</p>
 
-<h2>Budgeting Excel Sheet</h2>
-    <p>EXPLANATION OF ASSIGNMENT</p>
+<h2>Group Project Budgeting Excel Sheet</h2>
+    <p>For this assignment, our group was tasked with creating a purchasing order for an academic library with the budget of $15,000. My contribution to the group was an excel spreadsheet.</p>
 
 <div class="pdf-container">
-    <object data="Documents/Friends_Fiscal_Budget.pdf" type="application/pdf"></object>
+    <object data="Documents/Friends_Fiscal_Budget.pdf" type="application/pdf" width="70%" height="600px"></object>
 </div>
 
 <h2>Individual Analytic Essay</h2>
-    <p>EXPLANATION OF ASSIGNMENT</p>
+    <p>This essay explores the cultural aspects of the information professions and how it aligns with my personal convictions.</p>
 
 <div class="pdf-container">
-    <object data="Documents/Goulet, Madison_Analytic Essay.pdf" type="application/pdf"></object>
+    <object data="Documents/Goulet, Madison_Analytic Essay.pdf" type="application/pdf" width="70%" height="600px"></object>
 </div>
 
 <h2>Individual Research Assignment</h2>
-    <p>EXPLANATION OF ASSIGNMENT</p>
+    <p>This research assignment was focused on a particular aspect of technology and how it impacts the information professions. I chose to focus on artificial intelligence.</p>
 
 <div class="pdf-container">
-	<object data="Documents/Individual Research Assignment PP.pdf" type="application/pdf"></object>
+	<object data="Documents/Individual Research Assignment PP.pdf" type="application/pdf" width="70%" height="600px"></object>
 </div>
 
+</div>
     <hr />
 </main>
 
 <footer>
     <h3>Have a Question? Email Me!</h3>
+    <div class="form">
     <form action="mailto:megoulet@wanye.edu" method="post" enctype="text/plain">
-        <label for="name">Your Name:</label><br>
+        <label for="name">Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
         
-        <label for="email">Your Email:</label><br>
+        <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required><br><br>
         
         <label for="subject">Subject:</label><br>
@@ -73,6 +80,7 @@
         <input type="reset" value="Reset Form">
     
     </form>
+</div>
 </footer>
 
 </body>

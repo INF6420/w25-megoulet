@@ -5,29 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Madison's INF 6420 Project</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-
 <header>
-    <img src="Images/Madison Goulet logo.png " alt= "Madison Goulet logo">
-    <h2> Madison Goulet</h2>
-    <a href="https://www.linkedin.com/in/madisongoulet01" target="_blank">LinkedIn</a>
-    <a href="mailto:megoulet@wayne.com">megoulet@wayne.edu</a>
-    <hr />
+    <div class="banner">
 
-<nav>
+        <img src="Images/Madison Goulet Logo.png" alt="Madison Gouelt logo">
+        
+            <h2> Madison Goulet</h2>
+       <p><a href="https://www.linkedin.com/in/madisongoulet01" target="_blank">LinkedIn</a>
+        <a href="mailto:megoulet@wayne.com">megoulet@wayne.edu</a></p>
+        <hr />
+    <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="academics.html">Academics</a></li>
             <li><a href="professional.html">Professional Profile</a></li>
         </ul>
-</nav>
-<hr />
-
+    </nav>
+    <hr />
+    </div>
 </header>
 
 <main>
+<div class="body">
 <h1>Professional Profile</h1>
     <p>In this section, you will find an overview of my professional experience in the form of a resume. My professional background, I believe, has given me a great start to a successful career. 
     My time as a library assistant has given me practical experience that, when paired with my experience as a restaurant 
@@ -36,33 +40,37 @@
 <h2>Professional Resume</h2>
 
 <div class="pdf-container">
-    <object data="Documents/Goulet, Madison_Resume.pdf" type="application/pdf"></object>
+    <object data="Documents/Goulet, Madison_Resume.pdf" type="application/pdf" width="70%" height="600px"></object>
 </div>
 
-    <hr />
+</div>
+
+<hr />
 </main>
 
-    <footer>
-        <h3>Have a Question? Email Me!</h3>
-        <form action="mailto:megoulet@wanye.edu" method="post" enctype="text/plain">
-            <label for="name">Your Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
-            
-            <label for="email">Your Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-            
-            <label for="subject">Subject:</label><br>
-            <input type="text" id="subject" name="subject" required><br><br>
-            
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-            
-            <input type="submit" value="Send Email">
-            <input type="reset" value="Reset Form">
-       
-        </form>
-    </footer>
+<footer>
+    <h3>Have a Question? Email Me!</h3>
+    <div class="form">
+    <form action="mailto:megoulet@wanye.edu" method="post" enctype="text/plain">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" required><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        
+        <input type="submit" value="Send Email">
+        <input type="reset" value="Reset Form">
+    
+    </form>
+</div>
+</footer>
 
-    </body>
-    </html>
+</body>
+</html>
     
