@@ -5,56 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Madison's INF 6420 Project</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-
 <header>
-    <img src="Images/Madison Goulet Headshot.jpg" alt= "Madison Goulet logo">
-    <h2> Madison Goulet</h2>
-    <a href="https://www.linkedin.com/in/madisongoulet01" target="_blank">LinkedIn</a>
-    <a href="mailto:megoulet@wayne.com">megoulet@wayne.edu</a>
+    <div class="banner">
+
+        <img src="Images/Madison Goulet Logo.png" alt="Madison Gouelt logo">
+
+            <h2> Madison Goulet</h2>
+       <p><a href="https://www.linkedin.com/in/madisongoulet01" target="_blank">LinkedIn</a>
+        <a href="mailto:megoulet@wayne.com">megoulet@wayne.edu</a></p>
+        <hr />
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="professional.html">Professional Profile</a></li>
+        </ul>
+    </nav>
     <hr />
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="academics.html">Academics</a></li>
-        <li><a href="professional.html">Professional Profile</a></li>
-    </ul>
-</nav>
-<hr />
+    </div>
 </header>
 
 <main>
-<h1>Welcome!</h1>
-    <div>
-    <p>Hello and welcome to my webpage! As a student of Wayne State University's School of Information Science, I welcome you to my personal website. This acts as an overview of me, both personally and professionally. On this website, you will find... </p>
-    <ul class="no-bullets">
-        <li>A Personal Introduction</li>
-        <li>My Professional Resume</li>
-        <li>Various Academic Projects</li>
-    </ul>
-    </div>
-
+<div class="body">
+    <h1>Welcome!</h1>
     <div class="container">
+    <p>Hello and welcome to my webpage! As a student of 
+        Wayne State University's School of Information Science, I welcome you to my personal website. This acts as an overview of me, 
+        both personally and professionally. On this website, you will find a personal introduction, my professional 
+        resume, and various academic projects.</p>
+
+    <div class="image">
         <img src="Images/Madison Goulet Headshot.jpg" alt="Madison Goulet">
     </div>
+    </div>
+</div>
 
-    <p>Here is a brief introduction video to get to know me a bit better!</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/1tSnn53Iskk?si=eK3FDf88Qx-h_Bm5" title="YouTube video player" 
-    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
-    picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    
     <hr />
 </main>
 
- <footer>
+<footer>
     <h3>Have a Question? Email Me!</h3>
+    <div class="form">
     <form action="mailto:megoulet@wanye.edu" method="post" enctype="text/plain">
-        <label for="name">Your Name:</label><br>
+        <label for="name">Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
         
-        <label for="email">Your Email:</label><br>
+        <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required><br><br>
         
         <label for="subject">Subject:</label><br>
@@ -67,6 +68,7 @@
         <input type="reset" value="Reset Form">
     
     </form>
+</div>
 </footer>
 
 </body>
