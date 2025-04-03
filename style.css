@@ -194,8 +194,29 @@ h3{
     width: 40%;
     border: 1px solid #ccc;
     border-radius: 4px;
+    padding: 1em;
     font-size: 16px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.form textarea{
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1em;
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    resize: vertical;
+}
+
+.form input:focus{
+    outline:none;
+    border: 2px dotted darkolivegreen;
+}
+
+.form textarea:focus{
+    outline:none;
+    border: 2px dotted darkolivegreen;
 }
 
 input[type="submit"], input[type="reset"]{
@@ -210,8 +231,19 @@ input[type="submit"], input[type="reset"]{
 
 input[type="submit"]:hover{
     background-color:gold;
+    color:darkolivegreen;
 }
 
 input[type="reset"]:hover{
     background-color:gold;
+    color:darkolivegreen;
+}
+
+.error {
+    border-color:lightcoral;
+}
+
+.error-message {
+    color: lightcoral;
+    margin: 1em;
 }
