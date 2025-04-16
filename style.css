@@ -8,6 +8,7 @@
 .banner {
     background-color: #f8f8f0;
     width:100%;
+    text-align:center;
 }
 
 .banner h2{
@@ -16,8 +17,10 @@
     text-align:center;
     letter-spacing:20px;
     margin-top:10px;
+    margin-bottom:10px;
     font-size:40px;
 }
+
 
 .banner img{ 
     width:20%;
@@ -47,6 +50,17 @@
     margin-top:10px;
     margin-bottom:10px;
     text-align:center;
+    color:darkolivegreen;
+    font-family:'Courier New', Courier, monospace;
+    font-size:25px;
+    font-weight:lighter;
+    text-align:center;
+    text-decoration: none;
+    transition:color 0.3s;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-right:10px;
 }
 
 .banner li{
